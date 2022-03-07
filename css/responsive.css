@@ -24,19 +24,76 @@ px      68    160    252    344    436    528    620    712    804    896    */
 cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
 
-@media only screen and (min-width: 1025px) and (max-width: 1525px) {
+@media only screen and (min-width: 1025px) and (max-width: 1262px) {
 
 
   figcaption.mask h3 {
     color: #1f2021;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+    
+  figcaption.mask span {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  
+.portfolio-item{
+  width: 33.333333333333333%;
+}
+
+
+
+  .plus{
+    height: 30%;
+    width: 23%;
+    margin-left: -15%;
+    margin-top: -15%;
+    
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/*    Tablet Layout: 768px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 1262px) and (max-width: 1525px) {
+
+
+  figcaption.mask h3 {
+    color: #1f2021;
+    font-size: 18px;
+    line-height: 24px;
   }
   
   figcaption.mask span {
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 20px;
   }
+
+  
+.portfolio-item{
+  width: 33.333333333333333%;
+}
+
 
 
   .plus{
@@ -306,6 +363,7 @@ figcaption.mask h3 {
 }
 .portfolio-item{
   width: 100%;
+  margin: 0 auto;
 }
 
 .tst-content{
